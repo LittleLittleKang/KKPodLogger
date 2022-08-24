@@ -1,0 +1,22 @@
+{
+  "name": "KKPodLogger",
+  "version": "0.1.0",
+  "summary": "A short description of KKPodLogger.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/LittleLittleKang/KKPodLogger",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "LittleLittleKang": "tan452301@live.com"
+  },
+  "source": {
+    "git": "https://github.com/LittleLittleKang/KKPodLogger.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "KKPodLogger/Classes/**/*"
+}

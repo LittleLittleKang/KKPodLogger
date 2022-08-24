@@ -1,0 +1,6 @@
+framework module KKPodLogger {
+  umbrella header "KKPodLogger-umbrella.h"
+
+  export *
+  module * { export * }
+}

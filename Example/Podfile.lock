@@ -1,0 +1,16 @@
+PODS:
+  - KKPodLogger (0.1.0)
+
+DEPENDENCIES:
+  - KKPodLogger (from `../`)
+
+EXTERNAL SOURCES:
+  KKPodLogger:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KKPodLogger: 078cc30d7e50c32c5c43c8a03576ab8fcea5e788
+
+PODFILE CHECKSUM: 219963685b624ef67a0e9b3fb5353cfd1d0159d4
+
+COCOAPODS: 1.11.3

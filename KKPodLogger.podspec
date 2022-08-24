@@ -19,6 +19,7 @@ Pod::Spec.new do |s|
 
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
+用于测试pod, 这是一个描述啊啊啊, 哎哟不错哦!
                        DESC
 
   s.homepage         = 'https://github.com/LittleLittleKang/KKPodLogger'
