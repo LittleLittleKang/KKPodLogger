@@ -4,6 +4,7 @@ platform :ios, '10.0'
 
 target 'KKPodLogger_Example' do
   pod 'KKPodLogger', :path => '../'
+  pod 'AFNetworking', '~> 2.3'
 
   target 'KKPodLogger_Tests' do
     inherit! :search_paths

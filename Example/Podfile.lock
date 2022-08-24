@@ -1,16 +1,44 @@
 PODS:
-  - KKPodLogger (0.1.0)
+  - AFNetworking (2.7.0):
+    - AFNetworking/NSURLConnection (= 2.7.0)
+    - AFNetworking/NSURLSession (= 2.7.0)
+    - AFNetworking/Reachability (= 2.7.0)
+    - AFNetworking/Security (= 2.7.0)
+    - AFNetworking/Serialization (= 2.7.0)
+    - AFNetworking/UIKit (= 2.7.0)
+  - AFNetworking/NSURLConnection (2.7.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.7.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.7.0)
+  - AFNetworking/Security (2.7.0)
+  - AFNetworking/Serialization (2.7.0)
+  - AFNetworking/UIKit (2.7.0):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - KKPodLogger (0.1.0):
+    - AFNetworking (~> 2.3)
 
 DEPENDENCIES:
+  - AFNetworking (~> 2.3)
   - KKPodLogger (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
 
 EXTERNAL SOURCES:
   KKPodLogger:
     :path: "../"
 
 SPEC CHECKSUMS:
-  KKPodLogger: 078cc30d7e50c32c5c43c8a03576ab8fcea5e788
+  AFNetworking: 8dd5f9b9691e09186393069a12cc3b5ed7c8b511
+  KKPodLogger: d8b006716f5dc1e8ae8a566dccb87c8766529f4d
 
-PODFILE CHECKSUM: 219963685b624ef67a0e9b3fb5353cfd1d0159d4
+PODFILE CHECKSUM: e26da50e6abe986cf9c97c1fa1cf32954354ce3b
 
 COCOAPODS: 1.11.3

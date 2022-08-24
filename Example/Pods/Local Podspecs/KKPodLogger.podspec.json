@@ -2,7 +2,7 @@
   "name": "KKPodLogger",
   "version": "0.1.0",
   "summary": "A short description of KKPodLogger.",
-  "description": "TODO: Add long description of the pod here.",
+  "description": "TODO: Add long description of the pod here.\n用于测试pod, 这是一个描述啊啊啊, 哎哟不错哦!",
   "homepage": "https://github.com/LittleLittleKang/KKPodLogger",
   "license": {
     "type": "MIT",
@@ -18,5 +18,10 @@
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": "KKPodLogger/Classes/**/*"
+  "source_files": "KKPodLogger/Classes/**/*",
+  "dependencies": {
+    "AFNetworking": [
+      "~> 2.3"
+    ]
+  }
 }
